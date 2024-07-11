@@ -1,0 +1,406 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #333;
+}
+
+.header {
+  background-color: #e3172d;
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+.header h1 {
+  margin: 0;
+  font-size: 48px;
+}
+.header p {
+  font-size: 18px;
+}
+
+ ul {
+  display: flex;
+  gap: 20px;
+ 
+}
+ul li {
+  list-style: none;
+
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+  
+}
+
+   header{
+    background-color: #e3172d;
+   }
+   .bosish{
+    border-radius: 30px;
+    background-color: #ffc107;
+   }
+
+     
+  body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+        }
+        .header, .footer {
+            background-color: #c62828;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .header nav a, .footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .menu-section {
+            display: flex;
+            padding: 20px;
+        }
+        .menu-categories {
+            /* width: 20%; */
+            background-color: #e57373;
+            padding: 20px;
+            color: white;
+        }
+        .menu-categories h2 {
+            margin-top: 0;
+        }
+        .menu-categories ul {
+            /* list-style-type: none; */
+            /* padding: 0; */
+        }
+        .menu-categories ul li {
+            margin: 10px 0;
+        }
+        .menu-categories ul li a {
+            display: block;
+            padding: 10px;
+            background-color: #ef5350;
+            color: white;
+            /* text-decoration: none; */
+            border-radius: 20px;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+        .menu-categories ul li a:hover {
+            background-color: #d32f2f;
+        }
+        .menu-categories ul li a.active {
+            background-color: white;
+            color: #c62828;
+            border: 2px solid #c62828;
+        }
+        .menu-items {
+            width: 80%;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+        .menu-item {
+            width: calc(33.333% - 40px);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 10px;
+        }
+        .menu-item img {
+            width: 100%;
+        }
+        .menu-item h3 {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        .menu-item p {
+            color: #c62828;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .photo-gallery {
+            background-color: #f8f8f8;
+            padding: 20px;
+            text-align: center;
+        }
+        .photo-gallery img {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+        }
+        .newsletter {
+            text-align: center;
+            padding: 20px;
+            background-color: #c62828;
+            color: white;
+        }
+        .newsletter input[type="email"] {
+            padding: 10px;
+            width: 200px;
+            border: none;
+            border-radius: 5px;
+        }
+        .newsletter button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #ef5350;
+            color: white;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: space-around;
+            background-color: #c62828;
+            color: white;
+            padding: 10px 0;
+        }
+        
+
+        /*  */
+
+        .dot:hover{ 
+    background-color: green; 
+    color:white; 
+    } 
+    .bacc-{ 
+      background-image: url(./image/Frame\ 64.svg); 
+      background-size: cover 
+    } 
+    .bg-dark { 
+      background-color: red !important; 
+    } 
+    .navbar-nav .nav-link { 
+      color: white !important; 
+    } 
+    .navbar-brand { 
+      color: white !important; 
+    } 
+    .main-content { 
+      padding: 50px; 
+      text-align: center; 
+    } 
+    .main-content img { 
+      max-width: 100%; 
+      height: auto; 
+    } 
+    .section-content { 
+      padding: 50px; 
+      background-color: #f8f9fa; 
+    } 
+    .section-content img { 
+      width: 100%; 
+      height: auto; 
+      margin-bottom: 20px; 
+    } 
+    footer { 
+      background-color: #fb1100 !important;  
+      color: white; 
+      padding: 40px 0; 
+      text-align: center; 
+    } 
+    footer a { 
+      color: #ffc107; 
+    } 
+    footer a:hover { 
+      color: #fff; 
+    } 
+    .btn-primary:hover { 
+      background-color: #28a745; 
+      border-color: #28a745; 
+    } 
+    #back-to-top { 
+      position: fixed; 
+      bottom: 20px; 
+      right: 20px; 
+      display: none; 
+    } 
+     
+    .col-md-4{ 
+      transition: .5s ease; 
+      border-radius: 35px; 
+    } 
+ 
+    .col-md-4:hover{ 
+      box-shadow: 0px 0px 15px 20px red; 
+    } 
+
+     .list-group{ 
+      background-color: #f00; 
+    } 
+    .card-text{ 
+      color: #f00; 
+    } 
+    .col-md-4 col-sm-6 menu-pack-item{ 
+      display: flex; 
+      gap: 20px; 
+    } 
+    .menu-pack { 
+      display: flex; 
+      flex-wrap: wrap; 
+      justify-content: space-between; 
+    } 
+    .menu-pack-item { 
+      border: 1px solid #ddd; 
+      border-radius: 5px; 
+      overflow: hidden; 
+      margin-bottom: 20px; 
+      transition: all 0.3s ease; 
+    } 
+    .menu-pack-item:hover { 
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    } 
+    .menu-pack-item img { 
+      width: 100%; 
+      height: auto; 
+    } 
+    .menu-pack-item .card-body { 
+      text-align: center; 
+    } 
+    .menu-pack-item .card-body h5 { 
+      font-size: 1.2rem; 
+    } 
+    .menu-pack-item .card-body p { 
+      font-size: 1rem; 
+      color: #f00; 
+    } 
+    .sidebar { 
+      position: sticky; 
+      top: 20px; 
+    } 
+    .sidebar .list-group-item { 
+      border: 0; 
+      padding: 10px 15px; 
+      transition: background-color 0.3s ease; 
+    } 
+    .sidebar .list-group-item:hover { 
+      background-color: #f8f9fa; 
+    } 
+
+
+    /*  */
+
+
+      .menu-pack-item {
+            margin-bottom: 30px;
+        }
+
+   .menu-pack-item {
+      position: relative;
+    }
+
+    .card-img-top {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card-img-top:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+ .menu-pack-item {
+      position: relative;
+    }
+
+    .card-img-top {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card-img-top:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 10px rgba(0, 0, 255, 0.5), 0 0 15px rgba(0, 0, 255, 0.4);
+    }
+
+    .list-group-item.active {
+      /* margin-top: 50px; */
+      background-color: #007bff;
+      border-color: #007bff;
+    }
+
+    .list-group-item.active:hover {
+      background-color: #0056b3;
+      border-color: #0056b3;
+    }
+
+    .list-group-item {
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .list-group-item:hover {
+      background-color: #007bff;
+      color: white;
+    }
+
+    .list-group-item.active {
+      color: white;
+    }
+
+    .menu-pack-item {
+  position: relative;
+}
+
+.card-img-top {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-radius 0.3s ease;
+}
+
+.card-img-top:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 0, 255, 0.5); /* Ko'k soyali effekt */
+  border-radius: 10px; /* Doiraviy burchaklar */
+}
+
+/* Hover holatida rasmga ko'k doira qo'shish */
+.card-img-top:hover::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: calc(100% + 20px);
+  height: calc(100% + 20px);
+  border: 2px solid #007bff; /* Ko'k doira */
+  border-radius: 15px; /* Doiraviy burchaklar */
+  box-shadow: 0 0 20px rgba(0, 0, 255, 0.5);
+  z-index: -1;
+  transition: all 0.3s ease;
+}
+.card-img-top {
+  border-radius: 50%;
+}
+.card {
+  position: relative;
+}
+
+.card-img-top {
+  position: relative;
+}
+
+.card-img-top::after {
+  content: 'New!';
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  z-index: 10;
+}
+.card:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transform: scale(1.03);
+  transition: all 0.3s ease;
+}
+
+.batn{
+  border-radius: 50px;
+  background-color: aqua;
+}
